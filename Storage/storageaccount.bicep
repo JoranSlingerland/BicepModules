@@ -40,10 +40,6 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2019-06-01' = {
       bypass: networkAclsBypass
       defaultAction: networkAclsDefaultAction
       ipRules: [
-        {
-          value: '31.160.68.129'
-          action: 'Allow'
-        }
       ]
     }
     largeFileSharesState: largeFileSharesState
